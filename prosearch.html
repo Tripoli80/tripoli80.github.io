@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+    <Head>
+        <title>DIMOVSEARCH</title>
+        <link rel="stylesheet" href="style.css">
+    </Head>
+    <Body>
+        <div>
+            <div class="weight">
+          
+                
+                <button onclick="location.href='./searchimage.html'" class="btn site">Image Search</button>
+                <button onclick="location.href='./mygoogle.html'" class="btn site">Google Search</button>
+                          
+            </div>
+        <div class="center" >
+            
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="404">
+        </div>
+        <div  class="center">
+           
+                <input class= "tab" type="text" placeholder="" name="q" id="xs1">
+                <input class= "tab" type="text" placeholder="" name="q" id="xs2">
+                <input class= "tab" type="text" placeholder="" name="q" id="xs3">
+                <input class= "tab" type="text" placeholder="" name="q" id="xs4">
+
+
+
+
+           <div style="margin-top: 50px;">
+            <button  onclick="myFunction(this)" class="btn2 site">Pro SEARCH</button>
+            <button onclick="location.href='./mygoogle.html'" class="btn2 site">Google Search</button>
+           </div>
+            
+
+
+            <script>
+                function myFunction() {
+                    searchref ="https://google.com/search?q="+document.getElementById("xs").value;
+                    document.location.href = searchref;
+                }
+                </script>
+        </div>
+
+    </div>
+
+    </Body>
+
+</html>

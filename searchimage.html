@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+    <Head>
+        <title>DIMOVSEARCH</title>
+        <link rel="stylesheet" href="style.css">
+    </Head>
+    <Body>
+        <div>
+            <div class="weight">
+          
+                
+                <button onclick="location.href='./mygoogle.html'" class="btn site">Google Search</button>
+                <button onclick="location.href='./prosearch.html'" class="btn site">Pro Search</button>
+          
+            </div>
+        <div class="center" >
+            
+            
+            <div  title="Картинки Google" aling="left">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="404">
+                <div 
+                  class="a9nkvf"><span>Картинки</span>
+                </div>
+            </div>
+        </div>
+        <div  class="center">
+           
+                <input class= "tab" type="text" placeholder="" name="q" id="xs">
+           <div style="margin-top: 50px;">
+            <button onclick="myFunction(this)" class="btn2 site">Search Images</button>
+            <button onclick="location.href='./prosearch.html'" class="btn2 site">Pro Search</button>
+           </div>
+            
+
+
+            <script>
+                function myFunction() {
+                    searchref ="https://google.com/search?q="+document.getElementById("xs").value+"&tbm=isch";
+                    document.location.href = searchref;
+                }
+                </script>
+        </div>
+
+    </div>
+
+    </Body>
+
+</html>
+
+
+
+
+
+
+        

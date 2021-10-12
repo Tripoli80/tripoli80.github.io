@@ -1,0 +1,96 @@
+h1
+{
+ color:blue;
+ text-align: center;
+ }
+ h2
+ {
+    color:cadetblue;
+ text-align: center;
+ }
+ .btn {
+  border: 2px solid black;
+  background-color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  
+  
+}
+.a9nkvf{ color:#4285f4;font:16px/16px roboto-regular, arial, sans-serif;position:relative;white-space:nowrap}
+
+.btn2 {
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px 25px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 20%;
+  min-width: 100px;
+
+
+  
+}
+.site {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.site:hover {
+  background: #e7e7e7;
+}
+ .some-class {
+   width:200px;
+   padding:10px;
+ }
+ *, *:before, *:after {
+   box-sizing: border-box;
+ }
+
+ input[type=text] 
+ {  
+   width: 70%;
+   padding: 12px 20px;
+   border-radius: 10px;
+  
+   border: 1px solid;
+  
+ }
+  input[type=text]:hover
+   {  
+      width: 70%;
+      padding: 12px 20px;
+      border-radius: 10px;
+  
+      border: 1px solid;
+      box-shadow: 2px 2px 10px #888888;
+    
+   }
+   .center {
+      
+      
+    text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      width: 60%;
+      padding: 10px;
+  }
+  .center2 {
+   margin: auto;
+   width: 60%;
+   padding: 10px;
+}
+.weight{
+  text-align: right;
+  margin-right: 3%;
+   padding-bottom: 10%;
+}
+
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+}
